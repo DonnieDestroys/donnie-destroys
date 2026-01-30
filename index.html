@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Donnie Destroys">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1a1a2e">
+<meta name="description" content="DONNIE DESTROYS ULTIMATE - Arcade destruction game">
+<title>DONNIE DESTROYS ULTIMATE</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<div class="scan"></div>
+<div class="wrap">
+<div class="cab">
+<h1>⚡ DONNIE DESTROYS ⚡</h1>
+<div class="scr">
+<div class="hud"><span>SCORE: <span id="sc">0</span></span><span id="rm">OVAL OFFICE</span><span>CHAOS: <span id="ch">0</span>%</span></div>
+<canvas id="c" width="760" height="440"></canvas>
+<img id="winGif" src="win.gif" style="display:none;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);max-width:92%;max-height:82%;pointer-events:none;z-index:0;">
+</div>
+<div class="ctrl">⬅➡ MOVE | SPACE JUMP | Z SMASH (HOLD=POWER) | X TWEET | C GOLF | SHIFT DASH</div>
+<div class="coin" id="coin">★ TAP TO PLAY ★</div>
+</div>
+<div class="flash" id="flash"></div>
+</div>
+
+<!-- Mobile D-pad -->
+<div class="dpad" id="dpad">
+<div class="dpad-zone dpad-up" data-key="jump">▲</div>
+<div class="dpad-zone dpad-down" data-key="down">▼</div>
+<div class="dpad-zone dpad-left" data-key="left">◀</div>
+<div class="dpad-zone dpad-right" data-key="right">▶</div>
+<div class="dpad-zone dpad-upleft" data-key="upleft"></div>
+<div class="dpad-zone dpad-upright" data-key="upright"></div>
+<div class="dpad-center"></div>
+</div>
+<div class="action-buttons" id="actionButtons">
+<div class="action-btn punch" data-key="punch"><canvas id="ic-punch" width="32" height="32"></canvas></div>
+<div class="action-btn dash" data-key="dash"><canvas id="ic-dash" width="32" height="32"></canvas></div>
+<div class="action-btn tweet" data-key="tweet"><canvas id="ic-tweet" width="32" height="32"></canvas></div>
+<div class="action-btn golf" data-key="golf"><canvas id="ic-golf" width="32" height="32"></canvas></div>
+</div>
+
+<script src="js/audio.js"></script>
+<script src="js/game.js"></script>
+</body></html>

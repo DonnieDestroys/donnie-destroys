@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect fill="#1a1a2e" width="512" height="512"/>
+
+  <!-- Shadow under head -->
+  <ellipse cx="256" cy="450" rx="170" ry="35" fill="rgba(0,0,0,0.4)"/>
+
+  <!-- Neck - wider -->
+  <rect fill="#ffcc99" x="160" y="370" width="192" height="70"/>
+  <rect fill="#eebb88" x="155" y="400" width="202" height="20"/>
+  <rect fill="#ddaa77" x="150" y="420" width="212" height="25"/>
+
+  <!-- Suit/collar hint -->
+  <rect fill="#000058" x="130" y="445" width="252" height="70"/>
+  <rect fill="#f0f0f8" x="180" y="445" width="152" height="45"/>
+  <rect fill="#cc0000" x="236" y="445" width="40" height="70"/>
+
+  <!-- Head - WIDE and blocky like screenshot -->
+  <rect fill="#ffcc99" x="55" y="110" rx="35" ry="35" width="402" height="280"/>
+
+  <!-- Jowls - wider, lower -->
+  <ellipse cx="70" cy="290" rx="60" ry="75" fill="#ffbb99"/>
+  <ellipse cx="442" cy="290" rx="60" ry="75" fill="#ffbb99"/>
+
+  <!-- Double chin - bigger -->
+  <ellipse cx="256" cy="350" rx="120" ry="55" fill="#ffccaa"/>
+  <ellipse cx="256" cy="385" rx="100" ry="35" fill="#ffbb99"/>
+
+  <!-- Chubby cheeks - wider -->
+  <ellipse cx="105" cy="245" rx="60" ry="65" fill="#ffbbaa"/>
+  <ellipse cx="407" cy="245" rx="60" ry="65" fill="#ffbbaa"/>
+
+  <!-- THE LEGENDARY HAIR - bigger and blockier -->
+  <rect fill="#bb7700" x="45" y="40" width="422" height="125"/>
+  <rect fill="#bb7700" x="25" y="90" width="90" height="150"/>
+  <rect fill="#bb7700" x="397" y="90" width="90" height="170"/>
+
+  <rect fill="#cc8800" x="55" y="45" width="402" height="115"/>
+  <rect fill="#dd9900" x="65" y="50" width="382" height="105"/>
+  <rect fill="#eeaa00" x="75" y="55" width="362" height="95"/>
+  <rect fill="#ffbb11" x="85" y="60" width="342" height="85"/>
+  <rect fill="#ffcc22" x="95" y="65" width="220" height="75"/>
+  <rect fill="#ffdd44" x="105" y="60" width="170" height="65"/>
+  <rect fill="#ffee66" x="115" y="55" width="130" height="55"/>
+
+  <!-- Front hair swoop - bigger -->
+  <rect fill="#ffcc00" x="30" y="110" width="100" height="130"/>
+  <rect fill="#ffdd22" x="40" y="120" width="85" height="110"/>
+  <rect fill="#ffee44" x="50" y="130" width="70" height="90"/>
+  <rect fill="#fff8aa" x="60" y="140" width="55" height="70"/>
+
+  <!-- Side hair -->
+  <rect fill="#dd9900" x="405" y="100" width="75" height="140"/>
+  <rect fill="#eeaa00" x="410" y="105" width="65" height="130"/>
+
+  <!-- Eyebrows - angry, thicker -->
+  <rect fill="#aa6600" x="100" y="160" width="100" height="30" transform="rotate(-8 150 175)"/>
+  <rect fill="#aa6600" x="312" y="160" width="100" height="30" transform="rotate(8 362 175)"/>
+
+  <!-- Eyes - small on fat face, spread wider -->
+  <rect fill="#fff" x="118" y="205" width="70" height="50"/>
+  <rect fill="#fff" x="324" y="205" width="70" height="50"/>
+  <!-- Iris -->
+  <rect fill="#5a9fd4" x="140" y="210" width="45" height="43"/>
+  <rect fill="#5a9fd4" x="336" y="210" width="45" height="43"/>
+  <!-- Pupil -->
+  <rect fill="#1a3a5a" x="156" y="222" width="18" height="25"/>
+  <rect fill="#1a3a5a" x="352" y="222" width="18" height="25"/>
+  <!-- Eye shine -->
+  <rect fill="#fff" x="137" y="207" width="16" height="16"/>
+  <rect fill="#fff" x="333" y="207" width="16" height="16"/>
+
+  <!-- Puffy under-eyes -->
+  <ellipse cx="153" cy="265" rx="42" ry="18" fill="rgba(200,150,150,0.4)"/>
+  <ellipse cx="359" cy="265" rx="42" ry="18" fill="rgba(200,150,150,0.4)"/>
+
+  <!-- Nose - bulbous -->
+  <ellipse cx="256" cy="285" rx="45" ry="55" fill="#eebb99"/>
+  <rect fill="#ddaa88" x="286" y="268" width="20" height="50"/>
+  <!-- Nostrils -->
+  <ellipse cx="235" cy="325" rx="18" ry="12" fill="#cc9977"/>
+  <ellipse cx="277" cy="325" rx="18" ry="12" fill="#cc9977"/>
+
+  <!-- Mouth - small, pursed -->
+  <ellipse cx="256" cy="360" rx="50" ry="25" fill="#cc9999"/>
+  <ellipse cx="256" cy="367" rx="38" ry="15" fill="#bb8888"/>
+</svg>
